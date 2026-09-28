@@ -1,0 +1,19 @@
+* {
+   box-sizing: border-box;
+}
+
+#container {
+   width: 960px;
+   height: 960px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   outline: 1px solid red;
+   gap: 0;
+   align-items: center;
+   justify-content: center;
+}
+
+.container-item {
+   border: 1px solid black;
+}
